@@ -1,1 +1,28 @@
 // Mixins Here
+
+.center() {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.no-line() {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: gray;
+        text-decoration: underline;
+    }
+}
+
+.custom-btn (@height, @width, @bck-color, @color) {
+    height: @height;
+    width: @width;
+    background-color: @bck-color;
+    color: @color;
+    border-radius: 8px;
+    font-size: 2rem;
+    cursor: pointer;
+}
