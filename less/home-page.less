@@ -100,11 +100,20 @@
       }
 
       .btn {
-        .custom-btn(40px, 200px, @ebony-clay, white);
+        .custom-btn(40px, 200px, @ebony-clay, @porcelain);
+
+        &:hover {
+          .custom-btn(40px, 200px, @porcelain, @ebony-clay)
+        }
 
         @media @phone {
           width: 100%;
           height: 75px;
+
+          &:hover {
+            width: 100%;
+            height: 75px;
+          }
         }
       }
     }
