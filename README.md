@@ -37,6 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
 2. Describe what it means to be mobile first vs desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+It makes 1rem equal to 10px. This will make it easier to convert font-size or other units.
 
 4. How would you describe preprocessing to someone new to CSS?
 
